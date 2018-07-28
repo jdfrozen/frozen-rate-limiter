@@ -11,20 +11,22 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @Description:
  */
 public class Token {
-    private volatile static AtomicInteger token;
-    private static int supToken;
-    public static void originToken(int originToken){
+    private volatile  AtomicInteger token;
+    private int supToken;
+    public  Token(int originToken){
         token=new AtomicInteger(originToken);
         supToken =originToken;
     }
-    public static int getToken(){
+    public void setToken(int originToken){
+        supToken =originToken;
+        token.set(supToken);
+    }
+    public int getToken(){
      return token.get();
     }
-
-    public static void supplementToken(){
-         token.set(supToken);
+    public void supplementToken(){
+        token.set(supToken);
     }
-    public static int consumeToken(){
-        return token.decrementAndGet();
-    }
+    public  int consumeToken(){
+        return token.decrementAndGet(); }
 }
