@@ -35,12 +35,11 @@ public class RateLimiterUtil {
 
     /**
      *
-     * @param lock
      * @param timeout
      * @param unit
      * @return
      */
-    public boolean acquire(Object lock,long timeout, TimeUnit unit){
+    public boolean acquire(long timeout, TimeUnit unit){
         return rateLimiter.acquire( lock, timeout,  unit, token);
     }
 
