@@ -1,0 +1,20 @@
+mybatis.configLocation: classpath:mybatis.xml
+mybatis.mapperLocations: classpath*:mapper/*.xml
+mybatis.typeAliasesPackage: com.frozen.shardingjdbc.dao
+
+#datasource
+spring.devtools.remote.restart.enabled: false
+spring:
+  datasource:
+    sharding0:
+      type: com.alibaba.druid.pool.DruidDataSource
+      driverClassName: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/sharding_0
+      username: root
+      password: 123456
+    sharding1:
+      type: com.alibaba.druid.pool.DruidDataSource
+      driverClassName: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/sharding_1
+      username: root
+      password: 123456
