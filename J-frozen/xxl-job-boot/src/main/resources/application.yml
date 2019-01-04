@@ -1,0 +1,55 @@
+#jdbc
+spring:
+  datasource:
+      type: com.alibaba.druid.pool.DruidDataSource
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/xxl-job?useUnicode=true&characterEncoding=UTF-8
+      username: root
+      password: 123456
+
+  freemarker:
+      template-loader-path: classpath:/templates/ #模板加载路径 按需配置
+      template_update_delay: 0
+      default_encoding: UTF-8
+      output_encoding: UTF-8
+      locale: zh_CN
+      number_format: 0.##########
+      date_format: yyyy-MM-dd
+      time_format: HH:mm:ss
+      datetime_format: yyyy-MM-dd HH:mm:s
+      template_exception_handler: ignore
+      settings:
+            classic_compatible: true
+      request-context-attribute: request
+
+spring.mvc.static-path-pattern: /static/**
+
+## 工程名和端口
+server:
+  port: 8080
+app:
+  tmpDir: ../logs/
+
+#mybatis 1.1.1版本的starter
+mybatis:
+#  configLocation: classpath:mybatis-mapper/mybatis.xml
+  mapperLocations: classpath*:mybatis-mapper/*.xml
+  typeAliasesPackage: com.frozen.xxljobboot.core.model
+
+### xxl-job email
+xxl.job.mail.host: smtp.163.com
+xxl.job.mail.port: 25
+xxl.job.mail.ssl: false
+xxl.job.mail.username: ovono802302@163.com
+xxl.job.mail.password: asdfzxcv
+xxl.job.mail.sendNick: 《任务调度平台XXL-JOB》
+
+### xxl-job login
+xxl.job.login.username: admin
+xxl.job.login.password: 123456
+
+### xxl-job, access token
+xxl.job.accessToken: 
+
+### xxl-job, i18n (default empty as chinese, "en" as english)
+xxl.job.i18n:

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="J-frozen-constants" />
         <module name="sharding-jdbc" />
+        <module name="xxl-job-boot" />
       </profile>
     </annotationProcessing>
   </component>
