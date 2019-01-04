@@ -9,7 +9,6 @@
     </parent>
     <groupId>com.frozen</groupId>
     <artifactId>xxl-job-boot</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>xxl-job-boot</name>
     <description>Demo project for Spring Boot</description>
 

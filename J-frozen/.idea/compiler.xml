@@ -9,6 +9,7 @@
         <module name="J-frozen-constants" />
         <module name="sharding-jdbc" />
         <module name="xxl-job-boot" />
+        <module name="xxl-job-client" />
       </profile>
     </annotationProcessing>
   </component>
