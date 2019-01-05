@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/sharding-jdbc/pom.xml" />
         <option value="$PROJECT_DIR$/xxl-job-boot/pom.xml" />
         <option value="$PROJECT_DIR$/xxl-job-client/pom.xml" />
+        <option value="$PROJECT_DIR$/java-log/pom.xml" />
       </list>
     </option>
   </component>

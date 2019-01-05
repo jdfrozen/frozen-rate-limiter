@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="J-frozen-constants" />
+        <module name="java-log" />
         <module name="sharding-jdbc" />
         <module name="xxl-job-boot" />
         <module name="xxl-job-client" />

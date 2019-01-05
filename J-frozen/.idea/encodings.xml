@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/J-frozen-constants" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-log" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sharding-jdbc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xxl-job-boot" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/controller/IndexController.java" charset="GBK" />

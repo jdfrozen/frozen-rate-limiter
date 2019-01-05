@@ -8,6 +8,7 @@
     <ignored path="$PROJECT_DIR$/J-frozen-constants/target/" />
     <ignored path="$PROJECT_DIR$/xxl-job-boot/target/" />
     <ignored path="$PROJECT_DIR$/xxl-job-client/target/" />
+    <ignored path="$PROJECT_DIR$/java-log/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,20 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClientDataJob.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xxl-job-client/src/main/java/com/frozen/xxljobclient/job/ClientDataJob.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,6 +30,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>com.xxl.job.admin</find>
+      <find>this</find>
     </findStrings>
     <replaceStrings>
       <replace>com.frozen.xxljobboot</replace>
@@ -74,6 +63,15 @@
         <option value="$PROJECT_DIR$/xxl-job-client/src/main/java/com/frozen/xxljobclient/job/ClientDataJob.java" />
         <option value="$PROJECT_DIR$/xxl-job-client/src/main/java/com/frozen/xxljobclient/config/XxlJobConfig.java" />
         <option value="$PROJECT_DIR$/xxl-job-client/pom.xml" />
+        <option value="$PROJECT_DIR$/java-log/src/main/java/com/frozen/javalog/example/LogbackMain.java" />
+        <option value="$PROJECT_DIR$/java-log/src/main/java/com/frozen/javalog/example/JulMain.java" />
+        <option value="$PROJECT_DIR$/java-log/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/java-log/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/java-log/pom.xml" />
+        <option value="$PROJECT_DIR$/java-log/src/main/java/com/frozen/javalog/example/Log4jMain.java" />
+        <option value="$PROJECT_DIR$/java-log/src/main/java/com/frozen/javalog/example/Log4j2Main.java" />
+        <option value="$PROJECT_DIR$/java-log/src/main/java/com/frozen/javalog/example/JclMain.java" />
+        <option value="$PROJECT_DIR$/java-log/src/main/java/com/frozen/javalog/example/Sl4jMain.java" />
       </list>
     </option>
   </component>
@@ -112,10 +110,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="530" />
-    <option name="y" value="5" />
-    <option name="width" value="1515" />
-    <option name="height" value="745" />
+    <option name="y" value="100" />
+    <option name="width" value="1890" />
+    <option name="height" value="930" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -129,66 +126,13 @@
               <item name="J-frozen" type="b2602c69:ProjectViewProjectNode" />
               <item name="J-frozen" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="J-frozen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J-frozen" type="462c0819:PsiDirectoryNode" />
-              <item name="xxl-job-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J-frozen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J-frozen" type="462c0819:PsiDirectoryNode" />
-              <item name="xxl-job-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J-frozen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J-frozen" type="462c0819:PsiDirectoryNode" />
-              <item name="xxl-job-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J-frozen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J-frozen" type="462c0819:PsiDirectoryNode" />
-              <item name="xxl-job-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J-frozen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J-frozen" type="462c0819:PsiDirectoryNode" />
-              <item name="xxl-job-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xxljobclient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J-frozen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J-frozen" type="462c0819:PsiDirectoryNode" />
-              <item name="xxl-job-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xxljobclient" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J-frozen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J-frozen" type="462c0819:PsiDirectoryNode" />
-              <item name="xxl-job-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,18 +142,21 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/projects/ai-merchant-group" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../frozenlog" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.frozen.javalog.example" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projectsgithub\J-frozen\java-log\src\main\resources" />
       <recent name="E:\projectsgithub\J-frozen\xxl-job-client\src\main\java\com\frozen\xxljobclient" />
       <recent name="E:\projectsgithub\J-frozen\xxl-job-client\src\main\resources" />
       <recent name="E:\projectsgithub\J-frozen\xxl-job-boot\src\main\java\com\frozen\xxljobboot" />
       <recent name="E:\projectsgithub\J-frozen\xxl-job-boot\src\main\resources" />
-      <recent name="E:\projectsgithub\J-frozen\sharding-jdbc\src\main\java\com\frozen\shardingjdbc\ShardingAlgorithm" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -224,7 +171,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.XxlJobClientApplication">
+  <component name="RunManager" selected="Application.Sl4jMain">
+    <configuration name="JclMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.frozen.javalog.example.JclMain" />
+      <module name="java-log" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.frozen.javalog.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Log4j2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.frozen.javalog.example.Log4j2Main" />
+      <module name="java-log" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.frozen.javalog.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Log4jMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.frozen.javalog.example.Log4jMain" />
+      <module name="java-log" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.frozen.javalog.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Sl4jMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.frozen.javalog.example.Sl4jMain" />
+      <module name="java-log" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.frozen.javalog.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -267,6 +258,10 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="JavaLogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="java-log" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.frozen.javalog.JavaLogApplication" />
+    </configuration>
     <configuration name="ShardingJdbcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sharding-jdbc" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.frozen.shardingjdbc.ShardingJdbcApplication" />
@@ -306,9 +301,18 @@
       <item itemvalue="Spring Boot.XxlJobBootApplication" />
       <item itemvalue="Spring Boot.XxlJobClientApplication" />
       <item itemvalue="JUnit.ShardingJdbcApplicationTests.testUserInsert" />
+      <item itemvalue="Spring Boot.JavaLogApplication" />
+      <item itemvalue="Application.Log4j2Main" />
+      <item itemvalue="Application.JclMain" />
+      <item itemvalue="Application.Log4jMain" />
+      <item itemvalue="Application.Sl4jMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sl4jMain" />
+        <item itemvalue="Application.Log4jMain" />
+        <item itemvalue="Application.JclMain" />
+        <item itemvalue="Application.Log4j2Main" />
         <item itemvalue="JUnit.ShardingJdbcApplicationTests.testUserInsert" />
       </list>
     </recent_temporary>
@@ -326,7 +330,8 @@
       <workItem from="1546508284690" duration="147000" />
       <workItem from="1546508442934" duration="10222000" />
       <workItem from="1546566009281" duration="4922000" />
-      <workItem from="1546604493970" duration="1207000" />
+      <workItem from="1546604493970" duration="2972000" />
+      <workItem from="1546693528545" duration="2385000" />
     </task>
     <servers />
   </component>
@@ -342,11 +347,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16498000" />
+    <option name="totallyTimeSpent" value="20648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -367,19 +371,19 @@
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25282487" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23870057" />
       <window_info anchor="right" id="Mybatis datasource" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.14971751" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23133826" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3983051" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22057834" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
@@ -399,25 +403,25 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.17372881" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Mybatis datasource" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info active="true" anchor="right" id="Maven Projects" order="7" visible="true" weight="0.267653" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2118359" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.17372881" />
+      <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,45 +436,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sharding-jdbc/src/test/java/com/frozen/shardingjdbc/ShardingJdbcApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sharding-jdbc/src/main/resources/init.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-job-boot/src/main/resources/i18n/message.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/route/strategy/ExecutorRouteFailover.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/route/ExecutorRouteStrategyEnum.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/dao/XxlJobLogDao.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/model/XxlJobLog.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/route/strategy/ExecutorRouteLFU.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/route/strategy/ExecutorRouteRandom.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/util/I18nUtil.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -600,13 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sharding-jdbc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="55" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/config/CommonConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -664,10 +622,109 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xxl-job-client/src/main/java/com/frozen/xxljobclient/job/ClientDataJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="415">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-jdbc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-log/src/main/java/com/frozen/javalog/example/LogbackMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.11.0/log4j-core-2.11.0.jar!/org/apache/logging/log4j/core/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-log/src/test/java/com/frozen/javalog/JavaLogApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-log/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-log/src/main/java/com/frozen/javalog/example/Log4jMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-log/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-log/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="857">
+          <caret line="51" column="20" lean-forward="true" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-log/src/main/java/com/frozen/javalog/example/Log4j2Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="18" lean-forward="true" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-log/src/main/java/com/frozen/javalog/example/JclMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-log/src/main/java/com/frozen/javalog/example/Sl4jMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
           </folding>
         </state>
       </provider>
